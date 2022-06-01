@@ -1,0 +1,213 @@
+
+@media(min-width: 1000px) {
+
+	body {
+		background-color: #333;
+		background-image: url('./index-background.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+		margin: 0;
+		padding: 0;
+	}
+
+	#content {
+		margin-left: auto;
+		margin-right: auto;
+		background: rgba(0, 0, 0, 0.8); /* was background: rgba(0, 100, 140, 0.8); */
+		padding: 15px;
+		min-height: 100vh;
+	}
+
+
+
+
+	#auto-header {
+		display: block;
+		text-align: center;
+		margin-bottom: 55px;
+		font-size: 24px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#auto-header img {
+		text-align: center;
+		vertical-align: top;
+		width: 25vw;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.headerwrapper {
+		display: block;
+		background-color: white;
+		width: 80%;
+		border-radius: 15px;
+		border-bottom-left-radius: 15px;
+		padding: 15px;
+		vertical-align: top;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: none;
+	}
+
+	.headerwrapper .logo {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.headerwrapper .address {
+		display: inline-block;
+		float: right;
+		vertical-align: top;
+	}
+
+	.headerwrapper .address p,
+	.headerwrapper .address h3 {
+		padding: 0;
+		margin: 0;
+	}
+
+
+
+	nav {
+		content: '';
+		clear: both;
+		display: table;
+
+		background-color: white;
+		padding-right: 35px;
+		vertical-align: top;
+		margin-left: auto;
+		margin-right: auto;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+
+		overflow: none;
+		white-space: nowrap;
+		width: 40vw;
+	}
+
+	nav ul li {
+		display: inline-block;
+		font-size: 24px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border: 1px solid #ccc;
+		margin: 0;
+	}
+	nav ul li:hover {
+		background-color: #ccc;
+	}
+
+
+
+
+
+	section {
+		content: '';
+		clear: both;
+		display: table;
+		margin: 0;
+		display: block;
+		width: 100vw;
+		margin-bottom: 55px;
+		font-size: 24px;
+	}
+
+	section h1,
+	section h2,
+	section h3,
+	section h4,
+	section h5,
+	section h6 {
+		color: white;
+		text-align: center;
+		text-shadow: 4px 4px #000000;
+	}
+
+	section p {
+		color: white;
+		padding: 25px;
+		margin-right: 35px;
+		text-shadow: 2px 2px #000000;
+		font-weight: bold;
+	}
+
+
+
+
+	.clearfix::after {
+		content: '';
+		clear: both;
+		display: table;
+	}
+
+	footer {
+		background-color: white;
+		padding: 5px;
+		vertical-align: top;
+		margin-left: 20%;
+		margin-right: 20%;
+		border-radius: 15px;
+	}
+
+	footer p,
+	footer li,
+	footer h3 {
+		text-align: center;
+		color: black;
+		text-shadow: 0px 0px #000;
+	}
+
+	footer p {
+		font-weight: bold;
+	}
+
+	footer ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+
+	footer h3 {
+		text-align: center;
+	}
+
+	footer ul li {
+		display: inline-block;
+		margin: 12px;
+	}
+
+
+	footer ul li:hover {
+		outline: 2px inset gold;
+		filter: hue-rotate(-0.25turn);
+	}
+
+
+	section a:any-link {
+		color: white;
+	}
+
+	section a:active {
+		font-style: italic;
+	}
+
+	section ul {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		list-style: none;
+	}
+
+	section li {
+		color: white;
+		padding: 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
